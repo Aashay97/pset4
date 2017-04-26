@@ -1,12 +1,15 @@
-1.  TODO
-2.  TODO
-3.  TODO
-4.  TODO
-5.  TODO
-6.  TODO
-7.  TODO
-8.  TODO
-9.  TODO
-10. TODO
-11. TODO
-12. TODO
+1.  stdint.h is a C library header file which defines certain integer datatypes with specified widths and has some macros.
+2.  These data types are of fixed length hence they are independent of the platform used to access.
+3.  BYTE-8 bits  ;  DWORD-32 bits  ;  LONG-32 bits  ;  WORD-16 bits  ;
+4.  BM for bitmap
+5.  bfSize specifies the size of the entire .bmp image.
+    biSize specifies the size of the structure BITMAPINFOHEADER.
+6.  A negative biHeight implies that the pixel information is stored in a top to bottom approach
+    starting from the top left and ending with the bottom right corners.
+7.  biBitCount specifies the color depth.
+8.  NULL might be returned if the file specified does not exist or if the user doesn't have permission to access the file.
+9.  The 3rd argument specifies the number of blocks to be read at a time. We are reading only 1 struct at a time.
+10. 3 bytes
+11. fseek moves to a specific location in the file.
+12. SEEK_CUR is an argument for fseek.
+    It is used to seek from the current location.
